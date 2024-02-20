@@ -1,3 +1,3 @@
-function ohayou() {
-  alert("Hello!");
+function ohayou(nannka) {
+  alert(nannka);
 }

@@ -7,7 +7,12 @@
 </head>
 
 <body>
-    <input type="button" value="OK" onclick="ohayou()">
+    <form name="FF" action="#">
+        <input type="text" name="BOX1" value="Hello">
+    </form>
+
+    <input type="button" value="OK" onclick="ohayou(document.FF.BOX1.value)">
+
 </body>
 
 </html>
