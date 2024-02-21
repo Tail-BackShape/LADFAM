@@ -2,16 +2,24 @@
 <html>
 
 <head>
-    <title>JavaScript Sample</title>
+    <title>calc</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
     <script src="test.js"></script>
 </head>
 
 <body>
-    <form name="FF" action="#">
-        <input type="text" name="BOX1" value="Hello">
+    <form name="f1" action="#">
+        <div id="f1BOX1">
+            <input type="text" name="BOX1" value="Hello">
+        </div>
+        <div id="f1BOX2">
+            <input type="text" name="BOX2" value="World">
+        </div>
     </form>
 
-    <input type="button" value="OK" onclick="ohayou(document.FF.BOX1.value)">
+    <div id="OKbutton">
+        <input type="button" value="OK" onclick="ohayou(document.f1.BOX1.value)">
+    </div>
 
 </body>
 
