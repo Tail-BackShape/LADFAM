@@ -10,15 +10,15 @@
 <body>
     <form name="f1" action="#" id="forms">
         <div id="f1BOX1">
-            <input type="text" name="BOX1" value="Hello">
+            <input type="text" name="BOX1" value=50>
         </div>
         <div id="f1BOX2">
-            <input type="text" name="BOX2" value="World">
+            <input type="text" name="BOX2" value=100>
         </div>
     </form>
 
     <div id="OKbutton">
-        <input type="button" value="OK" onclick="ohayou(document.f1.BOX1.value)">
+        <input type="button" value="OK" onclick="ohayou(document.f1.BOX1.value, document.f1.BOX2.value)">
     </div>
 
 </body>
